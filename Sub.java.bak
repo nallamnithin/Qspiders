@@ -1,0 +1,13 @@
+public class Sub 
+{
+int modelyear;
+String modelname;
+	public Sub(int year,String name) {
+		modelyear = year;
+		modelname = name;
+	}
+	public static void main(String[]args){
+		Sub myObj = new Sub(2022,"Realme 10 pro 5G)");
+		System.out.println(myObj.modelyear+" " +myObj.modelname);
+	}
+}

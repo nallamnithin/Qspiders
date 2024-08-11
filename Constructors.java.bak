@@ -1,0 +1,13 @@
+public class Constructors 
+{
+int modelyear;
+String modelname;
+	public constructors(int year,String name) {
+		modelyear = year;
+		modelname = name;
+	}
+	public static void main(String[]args){
+		constructors myObj = new constructors(2022,"Realme 10 pro 5G");
+		System.out.println(myObj.modelyear+" " +myObj.modelname);
+	}
+}

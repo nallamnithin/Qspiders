@@ -1,0 +1,36 @@
+class OuterClass{
+	public static void main (String[]args){
+		int a = 12;
+		int b = 44;
+		int c  = 32;
+		int d =  54;
+		if (a>b)
+		{
+			if (a>c)
+			{
+				if (a>d)
+				{
+					System.out.println(a + " is max");
+				}
+				else{ System.out.println(b + "is max");
+			}
+			 
+				System.out.println(c  + " is max");
+		}
+			}
+		else if (b>c)
+		{
+		System.out.println(b + "is max");	
+		}
+		else if (c>d)
+		{
+			System.out.println(c + "is max");
+		}
+	
+		else{
+			System.out.println(d + "is max");
+		}
+	}
+}
+
+	

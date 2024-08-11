@@ -1,0 +1,36 @@
+class MinOfFour{
+	public static void main (String[]args){
+		int a = 12;
+		int b = 18;
+		int c  = 6;
+		int d =  14;
+		if (a<b)
+		{
+			if (a<c)
+			{
+				if (a<d)
+				{
+					System.out.println(a + " is minimum");
+				}
+				else
+				{ System.out.println(d + "is minimum");
+			}
+			System.out.println(c + " is minimum");
+		  }
+		}
+		else if (b<c && b<d)
+		{
+		System.out.println(b + "is minimum");	
+		}
+		else if (c<d)
+		{
+			System.out.println(c + "is minimum");
+		}
+	
+		else{
+			System.out.println(d + "is minimum");
+		}
+	}
+}
+
+	

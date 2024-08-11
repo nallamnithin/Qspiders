@@ -1,0 +1,9 @@
+class Nithin 
+{
+	public static void main(String[] args) 
+	{
+		Sub myCar = new Sub ();
+		myCar.myThrottle();
+		myCar.speed(500);
+	}
+}

@@ -1,0 +1,34 @@
+import java.util.Scanner;
+class Qspiders
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a course");
+		String course = sc.nextLine();
+		switch(course){
+			case "Java full stack" :
+				System.out.println("sql");
+			    System.out.println("core java");
+				System.out.println("advance java");
+				System.out.println ("web tech");
+				
+			break;
+			case "Testing" :
+				System.out.println("sql");
+			    System.out.println("core java");
+			    System.out.println("manual testing");
+				System.out.println("automatic testing");
+				
+			break;
+			case "Python full stack " :
+				System.out.println("sql");
+			    System.out.println("core python");
+				System.out.println("advance python");
+				System.out.println ("web tech");
+			break;
+			default :
+				System.out.println(course + " :is not there");
+		}
+	}
+}

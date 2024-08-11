@@ -1,0 +1,13 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+		System.out.println("Enter any character");
+		char vowel =s.nextChar();
+		if(vowel=='A'||vowel=='E'|| vowel=='I'||vowel=='O'||vowel=='U'||vowel=='a'||vowel=='e'||vowel=='i'||vowel=='o'||vowel=='u'){
+			System.out.println("It is a vowel");
+		}else{
+			System.out.println("Not a vowel");
+			}
+		
+    }
+}
